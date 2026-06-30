@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noni's cafe</title>
+    <link rel="stylesheet" href="cafe.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ribeye&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <script src="cafe.js" defer></script>
+</head>
+
+<body>
+
+    <div id="menu">
+        <h1>Noni's Matcha Cafe</h1>
+        <div id="nimnim-menu" class="menu-items">
+            <h6 class="matcha-names" onclick="showPopup('nimnim')"> Nimnim's berry special matcha</h6>
+            <img src="nimnim-matcha.png" class="matchas">
+        </div>
+        <div id="thrthr-menu" class="menu-items">
+            <img src="thrthr-matcha.png" class="matchas">
+            <h6 class="matcha-names" onclick="showPopup('thrthr')"> Thrthr's Strawberry Vanilla matcha</h6>
+        </div>
+        <div id="lanlan-menu" class="menu-items">
+            <h6 class="matcha-names" onclick="showPopup('lanlan')"> Lanlan's special matcha</h6>
+            <img src="rahrah-matcha.png" class="matchas">
+        </div>
+        <div id="rahrah-menu" class="menu-items">
+            <img src="rahrah-matcha.png" class="matchas">
+            <h6 class="matcha-names" onclick="showPopup('rahrah')"> Rahrah's special matcha</h6>
+
+        </div>
+
+
+    </div>
+
+    <!--nimnim-->
+
+    <div id="nimnim" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('nimnim')">&times;</span>
+            <h1 id="matcha-reciept">Noni's Matcha Cafe</h1>
+            <div class="data">
+                <p>Time : 18-1-1422 </p>
+                <p>Items : 26</p>
+            </div>
+            <div id="message">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua."</div>
+            <div class="data">
+                <p>Cashier: Nimnim </p>
+                <p>Total: 1013</p>
+            </div>
+        </div>
+    </div>
+
+    <!--thrthr-->
+    <div id="thrthr" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('thrthr')">&times;</span>
+            <h1 id="matcha-reciept">Noni's Matcha Cafe</h1>
+            <div class="data">
+                <p>Time : 18-1-1422 </p>
+                <p>Items : 26</p>
+            </div>
+            <div id="message">"Happy birthday noni 🤍, hope you have a sweet green year like my sweet Strawberry Vanilla
+                matcha 🌟.i love you soooo much 🤍❤️🤍❤️ <br>
+                Drink all the matchas you want today, you deserve it 🌟. <br>
+                again love you sooo much and i love you x26 times today 🤍❤️🤍❤️ "</div>
+            <div class="data">
+                <p>Cashier: Thrthr </p>
+                <p>Total: 1113</p>
+            </div>
+        </div>
+    </div>
+    <!--lanlan-->
+    <div id="lanlan" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('lanlan')">&times;</span>
+            <h1 id="matcha-reciept">Noni's Matcha Cafe</h1>
+            <div class="data">
+                <p>Time : 18-1-1422 </p>
+                <p>Items : 26</p>
+            </div>
+            <div id="message">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua."</div>
+            <div class="data">
+                <p>Cashier: Lanlan </p>
+                <p>Total: 728</p>
+            </div>
+        </div>
+    </div>
+
+    <!--rahrah-->
+
+    <div id="rahrah" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup('rahrah')">&times;</span>
+            <h1 id="matcha-reciept">Noni's Matcha Cafe</h1>
+            <div class="data">
+                <p>Time : 18-1-1422 </p>
+                <p>Items : 26</p>
+            </div>
+            <div id="message">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua."</div>
+            <div class="data">
+                <p>Cashier: Rahrah </p>
+                <p>Total: 626</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
